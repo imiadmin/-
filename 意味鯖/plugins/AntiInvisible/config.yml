@@ -1,0 +1,14 @@
+# AntiInvisibility by drtshock
+# For info visit the project page http://dev.bukkit.org/server-mods/antiinvisibility/
+
+# Made with love <3
+
+# Message used to show when the player is denied use of potion. 
+# Keep inside of quotes if you want to use colors.
+# Use & + character for color codes.
+
+DenyMessage: "&cYou are not allowed to do that!"
+
+# ID of the item to replace it. Don't use damage values.
+# Defaults to cookie :3
+ReplacementItemID: 357

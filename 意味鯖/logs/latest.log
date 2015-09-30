@@ -1,0 +1,429 @@
+[16:44:38] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[16:44:38] [Server thread/INFO]: Loading properties
+[16:44:38] [Server thread/INFO]: Default game type: SURVIVAL
+[16:44:38] [Server thread/INFO]: Generating keypair
+[16:44:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:44:38] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks (MC: 1.7.2) (Implementing API version 1.7.2-R0.4-SNAPSHOT)
+[16:44:40] [Thread-7/WARN]: Could not get information about this CraftBukkit version; perhaps you are running a custom one?: FileNotFoundException
+[16:44:41] [Thread-7/WARN]: Could not get latest artifact information: FileNotFoundException
+[16:44:43] [Server thread/ERROR]: Could not load 'plugins\ChestShop.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:216) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+[16:44:44] [Server thread/ERROR]: ebean.properties not found
+[16:44:44] [Server thread/ERROR]: Could not load 'plugins\rTriggers.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ExceptionInInitializerError
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:328) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugins(CraftServer.java:350) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.<init>(CraftServer.java:312) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.<init>(PlayerList.java:63) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:424) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+Caused by: java.lang.ExceptionInInitializerError
+	at org.bukkit.plugin.java.JavaPlugin.init(JavaPlugin.java:296) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:104) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:59) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.reil.bukkit.rTriggers.rTriggers.<init>(rTriggers.java:25) ~[rTriggers.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_45]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	... 9 more
+Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: Error constructing com.avaje.ebeaninternal.server.core.DefaultServerFactory
+	at com.avaje.ebean.EbeanServerFactory.createServerFactory(EbeanServerFactory.java:114) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebean.EbeanServerFactory.<clinit>(EbeanServerFactory.java:57) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.init(JavaPlugin.java:296) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:104) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:59) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.reil.bukkit.rTriggers.rTriggers.<init>(rTriggers.java:25) ~[rTriggers.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_45]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	... 9 more
+Caused by: java.lang.IllegalArgumentException: Error constructing com.avaje.ebeaninternal.server.core.DefaultServerFactory
+	at com.avaje.ebeaninternal.api.ClassUtil.newInstance(ClassUtil.java:107) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.api.ClassUtil.newInstance(ClassUtil.java:94) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebean.EbeanServerFactory.createServerFactory(EbeanServerFactory.java:112) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebean.EbeanServerFactory.<clinit>(EbeanServerFactory.java:57) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.init(JavaPlugin.java:296) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:104) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:59) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.reil.bukkit.rTriggers.rTriggers.<init>(rTriggers.java:25) ~[rTriggers.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_45]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	... 9 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\snufkin\Desktop\諢丞袖魃?\craftbukkit.jar (指定されたパスが見つかりません。)
+	at com.avaje.ebeaninternal.server.core.XmlConfigLoader.search(XmlConfigLoader.java:121) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.server.core.XmlConfigLoader.load(XmlConfigLoader.java:78) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.<init>(DefaultServerFactory.java:91) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_45]
+	at com.avaje.ebeaninternal.api.ClassUtil.newInstance(ClassUtil.java:104) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.api.ClassUtil.newInstance(ClassUtil.java:94) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebean.EbeanServerFactory.createServerFactory(EbeanServerFactory.java:112) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebean.EbeanServerFactory.<clinit>(EbeanServerFactory.java:57) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.init(JavaPlugin.java:296) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:104) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:59) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.reil.bukkit.rTriggers.rTriggers.<init>(rTriggers.java:25) ~[rTriggers.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_45]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	... 9 more
+Caused by: java.io.FileNotFoundException: C:\Users\snufkin\Desktop\諢丞袖魃?\craftbukkit.jar (指定されたパスが見つかりません。)
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_45]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:220) ~[?:1.8.0_45]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:150) ~[?:1.8.0_45]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_45]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_45]
+	at com.avaje.ebeaninternal.server.core.XmlConfigLoader.checkJar(XmlConfigLoader.java:176) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.server.core.XmlConfigLoader.search(XmlConfigLoader.java:110) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.server.core.XmlConfigLoader.load(XmlConfigLoader.java:78) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.<init>(DefaultServerFactory.java:91) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_45]
+	at com.avaje.ebeaninternal.api.ClassUtil.newInstance(ClassUtil.java:104) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebeaninternal.api.ClassUtil.newInstance(ClassUtil.java:94) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebean.EbeanServerFactory.createServerFactory(EbeanServerFactory.java:112) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.avaje.ebean.EbeanServerFactory.<clinit>(EbeanServerFactory.java:57) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.init(JavaPlugin.java:296) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.PluginClassLoader.initialize(PluginClassLoader.java:104) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPlugin.<init>(JavaPlugin.java:59) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at com.reil.bukkit.rTriggers.rTriggers.<init>(rTriggers.java:25) ~[rTriggers.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_45]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:52) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	... 9 more
+[16:44:44] [Server thread/INFO]: [dynmap] Loading dynmap v1.9.2-940
+[16:44:44] [Server thread/INFO]: [dynmap] Mod Support API available
+[16:44:44] [Server thread/INFO]: [MultiWorld] Loading MultiWorld v5.2.2
+[16:44:44] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.6.3
+[16:44:44] [Server thread/INFO]: [LunaChat] Loading LunaChat v2.7.5
+[16:44:44] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v2.7
+[16:44:44] [Server thread/INFO]: [Stargate] Loading Stargate v0.7.9.10
+[16:44:44] [Server thread/INFO]: [iConomy] Loading iConomy v7.0
+[16:44:44] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.21
+[16:44:44] [Server thread/INFO]: [CrazyCore] Loading CrazyCore v10.7.7
+[16:44:44] [Server thread/INFO]: [TreeAssist] Loading TreeAssist v5.8.40
+[16:44:44] [Server thread/INFO]: [ScheduledAnnouncer2] Loading ScheduledAnnouncer2 v2.8.5 - For version 1.7.9
+[16:44:44] [Server thread/INFO]: [CookieMonster] Loading CookieMonster v1.8
+[16:44:44] [Server thread/INFO]: [Modifyworld] Loading Modifyworld v1.19.7
+[16:44:44] [Server thread/INFO]: [LWC] Loading LWC v4.5.0-SNAPSHOT
+[16:44:44] [Server thread/INFO]: [AntiInvisible] Loading AntiInvisible v69
+[16:44:44] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v5.8
+[16:44:44] [Server thread/INFO]: [CrazyLogin] Loading CrazyLogin v7.21
+[16:44:44] [Server thread/INFO]: [LWC] Enabling LWC v4.5.0-SNAPSHOT
+[16:44:46] [Server thread/INFO]: [LWC] Connecting to SQLite
+[16:44:46] [Server thread/INFO]: Preparing level "world"
+[16:44:46] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6363874118787818911)
+[16:44:47] [Server thread/INFO]: Preparing spawn area: 16%
+[16:44:48] [Server thread/INFO]: Preparing spawn area: 94%
+[16:44:48] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6363874118787818911)
+[16:44:49] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6363874118787818911)
+[16:44:49] [Server thread/INFO]: [dynmap] Enabling dynmap v1.9.2-940
+[16:44:49] [Server thread/INFO]: [dynmap] Added 38 custom biome mappings
+[16:44:49] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.21
+[16:44:49] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[16:44:49] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:44:50] [Server thread/INFO]: [dynmap] Using PermissionsEx 1.21 for access control
+[16:44:50] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[16:44:51] [Server thread/INFO]: [dynmap] Loaded 22 shaders.
+[16:44:51] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[16:44:51] [Server thread/INFO]: [dynmap] Loaded 12 lightings.
+[16:44:51] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[16:44:51] [Server thread/INFO]: [dynmap] version 1.9.2-940 is enabled - core version 1.9.2-1888
+[16:44:51] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[16:44:51] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[16:44:51] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[16:44:51] [Server thread/INFO]: [dynmap] Enabled
+[16:44:51] [Server thread/INFO]: [MultiWorld] Enabling MultiWorld v5.2.2
+[16:44:51] [Server thread/INFO]: Preparing start region for level 3 (Seed: -7112267055370776565)
+[16:44:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'arashi'.
+[16:44:52] [Server thread/INFO]: Preparing start region for level 4 (Seed: 2899041113488234119)
+[16:44:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'city-world'.
+[16:44:52] [Server thread/INFO]: [dynmap] Loaded 37 pending tile renders for world 'city-world'
+[16:44:53] [Server thread/INFO]: [MultiWorld] v5.2.2 enabled.
+[16:44:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.6.3
+[16:44:53] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[16:44:53] [Server thread/INFO]: [LunaChat] Enabling LunaChat v2.7.5
+[16:44:53] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v2.7
+[16:44:53] [Server thread/INFO]: [ImageOnMap] Metrics launched for ImageOnMap
+[16:44:53] [Server thread/INFO]: [ImageOnMap] 0 maps was loaded
+[16:44:53] [Server thread/INFO]: [Stargate] Enabling Stargate v0.7.9.10
+[16:44:53] [Server thread/INFO]: Stargate v.0.7.9.10 is enabled.
+[16:44:53] [Server thread/INFO]: [Stargate] Loaded 1 gate layouts
+[16:44:53] [Server thread/INFO]: [Stargate] {world} No stargates for world 
+[16:44:53] [Server thread/INFO]: [Stargate] {world_nether} No stargates for world 
+[16:44:53] [Server thread/INFO]: [Stargate] {world_the_end} No stargates for world 
+[16:44:53] [Server thread/INFO]: [Stargate] {arashi} No stargates for world 
+[16:44:53] [Server thread/INFO]: [Stargate] {city-world} No stargates for world 
+[16:44:53] [Server thread/INFO]: [Stargate] Plugin metrics enabled.
+[16:44:53] [Server thread/INFO]: [iConomy] Enabling iConomy v7.0
+[16:44:53] [Server thread/INFO]: [iConomy - April Fools] Enabled (31 ms)
+[16:44:53] [Server thread/INFO]: [iConomy] Hello, I'm Nijikokun. Yes, this is an April Fools joke, but '/money top' was fixed! Enjoy :) - Rare Version!
+[16:44:53] [Server thread/INFO]: [CrazyCore] Enabling CrazyCore v10.7.7
+[16:44:53] [Server thread/INFO]: [CrazyCore] Checking permission modules:
+[16:44:53] [Thread-21/INFO]: [iConomy - April Fools] Purged accounts with default balance.
+[16:44:53] [Server thread/INFO]: [CrazyCore] - Vault
+[16:44:53] [Server thread/INFO]: [CrazyCore] - PermissionsEx
+[16:44:53] [Server thread/INFO]: [CrazyCore] Activated PermissionsEx Permission Module!
+[16:44:53] [Server thread/INFO]: [CrazyCore] Loading languages...
+[16:44:53] [Server thread/INFO]: [CrazyCore] Version 10.7.7 enabled
+[16:44:53] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v5.8.40
+[16:44:53] [Server thread/INFO]: [TreeAssist] debugging: off
+[16:44:53] [Server thread/INFO]: [ScheduledAnnouncer2] Enabling ScheduledAnnouncer2 v2.8.5 - For version 1.7.9
+[16:44:53] [Server thread/INFO]: ScheduledAnnouncer2 v2.8.5 - For version 1.7.9 is enabled!
+[16:44:53] [Server thread/INFO]: [CookieMonster] Enabling CookieMonster v1.8
+[16:44:53] [Server thread/INFO]: [CookieMonster] Using iConomy v6 for economy
+[16:44:53] [Server thread/INFO]: [CookieMonster]  v1.8 loaded successfully.
+[16:44:53] [Server thread/INFO]: [CookieMonster]  Developed by: [jascotty2, Coelho]
+[16:44:53] [Server thread/INFO]: [Modifyworld] Enabling Modifyworld v1.19.7
+[16:44:53] [Server thread/INFO]: [Modifyworld] Modifyworld enabled!
+[16:44:53] [Server thread/INFO]: [AntiInvisible] Enabling AntiInvisible v69
+[16:44:53] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v5.8
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:44:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[16:44:53] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:44:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:44:54] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:44:54] [Server thread/INFO]: [WorldGuard] (arashi) TNT ignition is PERMITTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (arashi) Lighters are PERMITTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (arashi) Lava fire is blocked.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (arashi) Fire spread is UNRESTRICTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'arashi'
+[16:44:54] [Server thread/INFO]: [WorldGuard] (city-world) TNT ignition is PERMITTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (city-world) Lighters are PERMITTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (city-world) Lava fire is blocked.
+[16:44:54] [Server thread/INFO]: [WorldGuard] (city-world) Fire spread is UNRESTRICTED.
+[16:44:54] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'city-world'
+[16:44:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'world'
+[16:44:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'world_nether'
+[16:44:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'world_the_end'
+[16:44:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'arashi'
+[16:44:54] [Server thread/INFO]: [WorldGuard] 0 regions loaded for 'city-world'
+[16:44:54] [Server thread/INFO]: [CrazyLogin] Enabling CrazyLogin v7.21
+[16:44:54] [Server thread/INFO]: [CrazyLogin] Loaded 2 Entries from database.
+[16:44:54] [Server thread/INFO]: [CrazyLogin] Version 7.21 enabled
+[16:44:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:44:54] [Server thread/INFO]: Done (7.728s)! For help, type "help" or "?"
+[16:44:54] [pool-3-thread-6/WARN]: Exception in thread "pool-3-thread-6" 
+[16:44:54] [pool-3-thread-6/WARN]: org.apache.commons.lang.UnhandledException: Plugin MultiWorld v5.2.2 generated an exception while executing task 11
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+	at multiworld.metrics.Metrics.postPlugin(Metrics.java:372)
+	at multiworld.metrics.Metrics.access$400(Metrics.java:56)
+	at multiworld.metrics.Metrics$1.run(Metrics.java:238)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+
+[16:44:54] [pool-3-thread-9/WARN]: Exception in thread "pool-3-thread-9" 
+[16:44:54] [pool-3-thread-9/WARN]: org.apache.commons.lang.UnhandledException: Plugin LWC v4.5.0-SNAPSHOT generated an exception while executing task 4
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+	at org.mcstats.Metrics.postPlugin(Metrics.java:335)
+	at org.mcstats.Metrics.access$400(Metrics.java:57)
+	at org.mcstats.Metrics$1.run(Metrics.java:223)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+
+[16:44:54] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[16:45:10] [pool-3-thread-1/INFO]: [LWC] [LWC] The updater ran into a minor issue: Server returned HTTP response code: 522 for URL: http://update.griefcraft.com/lwc/branch/stable/LATEST
+[16:45:10] [pool-3-thread-1/INFO]: [LWC] [LWC] This can probably be ignored.
+[16:45:15] [pool-3-thread-4/INFO]: [Metrics] Connection timed out: connect
+[16:45:16] [User Authenticator #1/INFO]: UUID of player yakiniki is 8a0e7ee591954fa49cdf9c527a396843
+[16:45:16] [Server thread/INFO]: yakiniki[/127.0.0.1:52326] logged in with entity id 334 at ([city-world] 242.92144320212918, 67.86779135088071, 260.16678129149136)
+[16:45:16] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to CrazyLogin v7.21
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:294) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.c(PlayerList.java:225) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.a(PlayerList.java:116) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.LoginListener.c(LoginListener.java:78) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.LoginListener.a(LoginListener.java:42) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.NetworkManager.a(NetworkManager.java:149) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(SourceFile:134) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:655) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:545) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:457) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+Caused by: java.lang.NoSuchMethodError: ru.tehkode.permissions.PermissionUser.getGroups()[Lru/tehkode/permissions/PermissionGroup;
+	at de.st_ddt.crazyutil.modules.permissions.PermissionPermissionsExSystem.getGroup(PermissionPermissionsExSystem.java:71) ~[CrazyCore.jar:?]
+	at de.st_ddt.crazyutil.modules.permissions.PermissionModule.getGroup(PermissionModule.java:73) ~[CrazyCore.jar:?]
+	at de.st_ddt.crazylogin.listener.PlayerListener.sendDefaultPlayerJoinMessage(PlayerListener.java:211) ~[CrazyLogin.jar:?]
+	at de.st_ddt.crazylogin.listener.PlayerListener.PlayerJoinMessageGet(PlayerListener.java:191) ~[CrazyLogin.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	... 14 more
+[16:45:23] [Server thread/INFO]: yakiniki issued server command: /login kansyu
+[16:45:41] [Server thread/INFO]: [WorldEdit] Using external NmsBlock for this version: CBXNmsBlock_172
+[16:46:34] [Server thread/INFO]: [Announcement] Use /announce help to get info how to config this plugin.
+[16:48:14] [Server thread/INFO]: [Announcement] You can also configure this plugin with its config.yml too!
+[16:49:54] [Server thread/INFO]: [Announcement] Show current and max player count!  There are currently %currentPlayers%/%maxPlayers% playing right now!
+[16:51:34] [Server thread/INFO]: [Announcement] This is the first default announcement!
+[16:53:14] [Server thread/INFO]: [Announcement] Use /announce help to get info how to config this plugin.
+[16:54:54] [Server thread/INFO]: [Announcement] You can also configure this plugin with its config.yml too!
+[16:55:15] [pool-3-thread-4/INFO]: [Metrics] Connection timed out: connect
+[16:56:34] [Server thread/INFO]: [Announcement] Show current and max player count!  There are currently %currentPlayers%/%maxPlayers% playing right now!
+[16:58:14] [Server thread/INFO]: [Announcement] This is the first default announcement!
+[16:59:54] [Server thread/INFO]: [Announcement] Use /announce help to get info how to config this plugin.
+[16:59:54] [pool-3-thread-18/WARN]: Exception in thread "pool-3-thread-18" 
+[16:59:54] [pool-3-thread-18/WARN]: org.apache.commons.lang.UnhandledException: Plugin LWC v4.5.0-SNAPSHOT generated an exception while executing task 4
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+	at org.mcstats.Metrics.postPlugin(Metrics.java:335)
+	at org.mcstats.Metrics.access$400(Metrics.java:57)
+	at org.mcstats.Metrics$1.run(Metrics.java:223)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+
+[16:59:54] [pool-3-thread-21/WARN]: Exception in thread "pool-3-thread-21" 
+[16:59:54] [pool-3-thread-21/WARN]: org.apache.commons.lang.UnhandledException: Plugin MultiWorld v5.2.2 generated an exception while executing task 11
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:56)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()Ljava/util/Collection;
+	at multiworld.metrics.Metrics.postPlugin(Metrics.java:372)
+	at multiworld.metrics.Metrics.access$400(Metrics.java:56)
+	at multiworld.metrics.Metrics$1.run(Metrics.java:238)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftTask.run(CraftTask.java:53)
+	at org.bukkit.craftbukkit.v1_7_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	... 3 more
+
+[17:01:34] [Server thread/INFO]: [Announcement] You can also configure this plugin with its config.yml too!
+[17:03:14] [Server thread/INFO]: [Announcement] Show current and max player count!  There are currently %currentPlayers%/%maxPlayers% playing right now!
+[17:04:54] [Server thread/INFO]: [Announcement] This is the first default announcement!
+[17:05:15] [pool-3-thread-24/INFO]: [Metrics] Connection timed out: connect
+[17:06:34] [Server thread/INFO]: [Announcement] Use /announce help to get info how to config this plugin.
+[17:07:22] [Server thread/INFO]: yakiniki lost connection: Disconnected
+[17:07:22] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to CrazyLogin v7.21
+org.bukkit.event.EventException
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:294) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:501) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:486) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.PlayerList.disconnect(PlayerList.java:281) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.PlayerConnection.a(PlayerConnection.java:702) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.ServerConnection.c(SourceFile:130) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.u(MinecraftServer.java:655) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.u(DedicatedServer.java:250) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.t(MinecraftServer.java:545) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:457) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+Caused by: java.lang.NoSuchMethodError: ru.tehkode.permissions.PermissionUser.getGroups()[Lru/tehkode/permissions/PermissionGroup;
+	at de.st_ddt.crazyutil.modules.permissions.PermissionPermissionsExSystem.getGroup(PermissionPermissionsExSystem.java:71) ~[CrazyCore.jar:?]
+	at de.st_ddt.crazyutil.modules.permissions.PermissionModule.getGroup(PermissionModule.java:73) ~[CrazyCore.jar:?]
+	at de.st_ddt.crazylogin.listener.PlayerListener.sendDefaultPlayerQuitMessage(PlayerListener.java:221) ~[CrazyLogin.jar:?]
+	at de.st_ddt.crazylogin.listener.PlayerListener.PlayerQuitMessage(PlayerListener.java:459) ~[CrazyLogin.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:292) ~[craftbukkit.jar:git-Bukkit-1.7.2-R0.3-2-g85f5776-b3023jnks]
+	... 11 more
+[17:07:22] [Server thread/INFO]: CRAZYLOGIN.QUIT
+[17:07:25] [Server thread/INFO]: CONSOLE: Stopping the server..
+[17:07:25] [Server thread/INFO]: Stopping server
+[17:07:25] [Server thread/INFO]: [CrazyLogin] Disabling CrazyLogin v7.21
+[17:07:25] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v5.8
+[17:07:25] [Server thread/INFO]: [AntiInvisible] Disabling AntiInvisible v69
+[17:07:25] [Server thread/INFO]: [LWC] Disabling LWC v4.5.0-SNAPSHOT
+[17:07:25] [Server thread/INFO]: [LWC] Flushing protection updates (0)
+[17:07:25] [Server thread/INFO]: [Modifyworld] Disabling Modifyworld v1.19.7
+[17:07:25] [Server thread/INFO]: [Modifyworld] Modifyworld successfully disabled!
+[17:07:25] [Server thread/INFO]: [CookieMonster] Disabling CookieMonster v1.8
+[17:07:25] [Server thread/INFO]: [ScheduledAnnouncer2] Disabling ScheduledAnnouncer2 v2.8.5 - For version 1.7.9
+[17:07:25] [Server thread/INFO]: ScheduledAnnouncer2 v2.8.5 - For version 1.7.9 is disabled!
+[17:07:25] [Server thread/INFO]: [TreeAssist] Disabling TreeAssist v5.8.40
+[17:07:25] [Server thread/INFO]: [CrazyCore] Disabling CrazyCore v10.7.7
+[17:07:25] [Server thread/INFO]: [CrazyCore] disabled
+[17:07:25] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.21
+[17:07:25] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[17:07:25] [Server thread/INFO]: [iConomy] Disabling iConomy v7.0
+[17:07:25] [Server thread/INFO]: [iConomy] Closing general data...
+[17:07:25] [Server thread/INFO]: [iConomy] Disabled. (0 ms)
+[17:07:25] [Server thread/INFO]: [Stargate] Disabling Stargate v0.7.9.10
+[17:07:25] [Server thread/INFO]: Closing all stargates.
+[17:07:25] [Server thread/INFO]: [ImageOnMap] Disabling ImageOnMap v2.7
+[17:07:25] [Server thread/INFO]: [ImageOnMap] Stopping ImageOnMap
+[17:07:25] [Server thread/INFO]: [LunaChat] Disabling LunaChat v2.7.5
+[17:07:25] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v5.6.3
+[17:07:25] [Server thread/INFO]: [MultiWorld] Disabling MultiWorld v5.2.2
+[17:07:25] [Server thread/INFO]: [MultiWorld] Disabled.
+[17:07:25] [Server thread/INFO]: [dynmap] Disabling dynmap v1.9.2-940
+[17:07:25] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[17:07:25] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[17:07:25] [Server thread/INFO]: [dynmap] Saved 26 pending tile renders in world 'city-world'
+[17:07:25] [Server thread/INFO]: [dynmap] Disabled
+[17:07:25] [Server thread/INFO]: Saving players
+[17:07:25] [Server thread/INFO]: Saving worlds
+[17:07:25] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:07:26] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[17:07:26] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[17:07:26] [Server thread/INFO]: Saving chunks for level 'arashi'/Overworld
+[17:07:26] [Server thread/INFO]: Saving chunks for level 'city-world'/Overworld
+[17:07:26] [Thread-4/INFO]: Stopping server

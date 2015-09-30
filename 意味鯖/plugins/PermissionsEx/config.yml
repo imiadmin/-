@@ -1,0 +1,5 @@
+permissions:
+  backends:
+    file:
+      type: file
+      file: permissions.yml

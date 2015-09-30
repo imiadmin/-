@@ -1,0 +1,32 @@
+groups:
+  default:
+    default: true
+    permissions:
+    - modifyworld.*
+    - iConomy.holdings.*
+    - iConomy.payment.*
+    - ChestShop.shop.*
+    - ChestShop.mod
+    - crazylogin.register.command
+    - crazylogin.login.*
+    - clazylogin.player.*
+    - lwc.protect.*
+    - lwc.deny.*
+    - stargate.*
+    - treeassist.*
+  create:
+    default: false
+    inheritance:
+    - default
+    permissions:
+    - bukkit.command.kill
+    - bukkit.command.gamemode
+    - worldwdit.*
+  admin:
+    default: false
+    permissions:
+    - '*'
+users:
+  8a0e7ee5-9195-4fa4-9cdf-9c527a396843:
+    permissions:
+    - admin

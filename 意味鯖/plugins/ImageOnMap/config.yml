@@ -1,0 +1,5 @@
+Limit-map-by-server: 0
+Limit-map-by-player: 0
+collect-data: true
+import-maps: false
+map_path: world

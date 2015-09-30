@@ -1,0 +1,46 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  arashi:
+    seed: -7112267055370776565
+    worldgen: FlatLand
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  city-world:
+    seed: 2899041113488234119
+    worldgen: FlatLand
+    options: ''
+    difficulty: PEACEFUL
+    autoload: true
+  world:
+    seed: 6363874118787818911
+    worldgen: Normal
+    options: ''
+    difficulty: PEACEFUL
+    autoload: true
+  world_nether:
+    seed: 6363874118787818911
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  world_the_end:
+    seed: 6363874118787818911
+    worldgen: The_End
+    options: ''
+    difficulty: EASY
+    autoload: true
